@@ -1,0 +1,25 @@
+{
+  "name": "pet-shelter",
+  "version": "1.0.0",
+  "description": "Navigate to server/config/mongoose.config.js <br>\r Insert your database name in the ```dbNAME``` variable on line 2 <br><br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "mongoose-unique-validator": "^3.0.0"
+  },
+  "devDependencies": {}
+}
